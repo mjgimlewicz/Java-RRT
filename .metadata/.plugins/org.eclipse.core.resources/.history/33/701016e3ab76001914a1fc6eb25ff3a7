@@ -2,41 +2,12 @@ package rrt;
 
 import java.util.ArrayList;
 
-import ij.ImageJ;
-
 public class Traversal implements TraversalInterface {
 
-	/**
-	 * 
-	 */
-	private Map map;
-	
-	/**
-	 * 
-	 */
-	private ImageJ occupancyGrid;
-	
-	/**
-	 * Stores boolean values for each node (indexed by ID)
-	 * indicating if it has been visited
-	 */
-	private boolean[] visitedNodes;
-	
-	/**
-	 * Stores the ID of each node's parent (indexed by ID)
-	 */
-	private int[] parents;
-	
-	public Traversal(Map map) {
-		this.map      = map;
-		visitedNodes  = new boolean[map.getNodeListLength()];
-		parents       = new int[map.getNodeListLength()];
-		occupancyGrid = map.getOccupancyGrid();
-	}
-	
 	@Override
-	public boolean isGoal(Node node, int id) {
-		return node.getID() == id;
+	public boolean isGoal(Node goal, int id) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 
 	@Override
