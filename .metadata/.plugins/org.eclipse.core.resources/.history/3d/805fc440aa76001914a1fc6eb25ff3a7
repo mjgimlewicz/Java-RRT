@@ -1,0 +1,5 @@
+package rrt;
+
+public interface TraversalInterface {
+
+}
