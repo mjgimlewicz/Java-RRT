@@ -40,12 +40,14 @@ public class Traversal implements TraversalInterface {
 		return null;
 	}
 
-	private void drawTraversal(int goalID) {
+	@Override
+	public void drawTraversal(int goalID) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	private void clearQueue() {
+	@Override
+	public void clearQueue() {
 		// TODO Auto-generated method stub
 		
 	}

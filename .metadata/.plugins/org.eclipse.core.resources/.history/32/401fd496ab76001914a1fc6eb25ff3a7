@@ -13,6 +13,8 @@ public interface TraversalInterface {
 	public void recurBFS(final int goalID);
 	public void runBFS(final int startID, final int goalID);
 	public ArrayList<Node> getFrontierAtDepth(final int startID, final int depth);
+	public void drawTraversal(final int goalID);
+	public void clearQueue();
 	public String tracePath(Node node);
 	
 	
